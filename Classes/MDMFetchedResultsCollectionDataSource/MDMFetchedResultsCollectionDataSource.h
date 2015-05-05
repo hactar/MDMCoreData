@@ -40,7 +40,7 @@
  @param cell The UICollectionViewCell to be configured by the delegate.
  @param object The object to be used to configure the cell.
  */
-- (void)dataSource:(MDMFetchedResultsCollectionDataSource *)dataSource configureCell:(id)cell withObject:(id)object;
+- (void)dataSource:(MDMFetchedResultsCollectionDataSource *)dataSource configureCell:(id)cell withObject:(id)object indexPath: (NSIndexPath *)indexPath;
 
 /**
  Asks the delegate to delete the specified object.
